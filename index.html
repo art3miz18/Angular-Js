@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="firstOne">
+<script src="angular.min.js"></script>
+<script src="app.js"></script>
+<head>
+	<title>My first angular assingment</title>
+</head>
+<body>
+	<div ng-controller="BoxElem">
+		<input type="text" id="inputbox" ng-model="name">
+		<button ng-click="submitt()">Check If Too Much</button>
+		<br>
+		value: {{totalValue}}
+	</div>
+</body>
+</html>
